@@ -23,5 +23,5 @@ class CreateBlog(LoginRequiredMixin, CreateView):
 class BlogList(ListView):
     context_object_name = 'blogs'
     model = Blog
-    template_name = 'App_Blog/blog_list.html'
+    template_name = 'App_Blog/list_of_blogs.html'
 
